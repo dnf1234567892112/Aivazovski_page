@@ -56,6 +56,77 @@
         </nav>
       </div>
     </header>
+    <div class="mobile_navigation">
+      <label
+        for="toggler_id"
+        class="burger-menu-icon"
+        aria-label="open-close mobile_navigation menu"
+      >
+        <svg class="social-icon" aria-label="burger icon">
+          <use href="assets/sprites.svg#burger_nav-icon"></use>
+        </svg>
+      </label>
+      <input
+        type="checkbox"
+        id="toggler_id"
+        class="mobile_navigation-toggler"
+      />
+      <nav class="mobile_navigation-nav" aria-label=" header navigation">
+        <ul class="mobile_navigation-list" aria-label="header list item">
+          <li>
+            <a
+              href="#home-id"
+              class="mobile_navigation-link"
+              aria-label="link to home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about-id"
+              class="mobile_navigation-link"
+              aria-label="link to About"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#history-id"
+              class="mobile_navigation-link"
+              aria-label="link to History"
+              >History</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio-id"
+              class="mobile_navigation-link"
+              aria-label="link to Portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contacts-id"
+              class="mobile_navigation-link"
+              aria-label="link to Contacts"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <label
+          class="cross-icon"
+          for="toggler_id"
+          aria-label="open-close mobile_navigation menu"
+        >
+          <img
+            src="assets/Cross.svg"
+            alt="cross icon"
+            aria-label="cross icon"
+          />
+        </label>
+      </nav>
+    </div>
 
     <main class="main" aria-label="main">
       <div class="container">
@@ -67,7 +138,7 @@
             Russian marine painter of Armenian origin, collector, philanthropist
           </p>
           <img
-            src="assets/webp/portrait 1.webp"
+            src="assets/webp/portrait1.webp"
             alt="photo of  Aivazovski "
             class="home-img"
           />
@@ -157,14 +228,14 @@
     <footer class="contacts" aria-label="contacts section" id="contacts-id">
       <div class="container">
         <h2 class="contacts-title" aria-label="contacts-title">Contacts</h2>
-        <button class="contacts-button" aria-label="contacts-button">
-          <a
-            href="https://ayvazovskiy.su"
-            class="button-link"
-            aria-label="button-link"
-            >ayvazovskiy.su</a
-          >
-        </button>
+
+        <a
+          href="https://ayvazovskiy.su"
+          class="contacts-button"
+          aria-label="contacts-button"
+          >ayvazovskiy.su</a
+        >
+
         <address class="socials" aria-label="social icon">
           <a
             href="https://youtube.com"

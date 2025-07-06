@@ -1,0 +1,44 @@
+.mobile_navigation {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.mobile_navigation-toggler {
+  display: none;
+}
+.mobile_navigation-nav {
+  padding: 30px 20px;
+  position: fixed;
+  inset: 0;
+  background-color: var(--bg-main);
+  translate: 100% 0;
+  transition: all 0.33s;
+}
+.mobile_navigation-toggler:checked + .mobile_navigation-nav {
+  translate: 0;
+}
+
+.cross-icon {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.mobile_navigation-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.mobile_navigation-link {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--font-color-grey);
+}
+
+@media (max-width: 480px) {
+  .mobile_navigation {
+    display: block;
+  }
+}
