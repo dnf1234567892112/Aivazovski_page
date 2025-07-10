@@ -6,278 +6,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="index.css" />
-    <title>Aivazovski</title>
+    <link rel="shortcut icon" href="assets/Favicon.png" type="image/png" />
+    <title>ALIVIO</title>
   </head>
   <body>
     <header class="header" aria-label="header">
       <div class="container">
-        <nav class="nav" aria-label=" header navigation">
-          <ul class="nav-list" aria-label="header list item">
-            <li>
-              <a href="#home-id" class="nav-link" aria-label="link to home"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a href="#about-id" class="nav-link" aria-label="link to About"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#history-id"
-                class="nav-link"
-                aria-label="link to History"
-                >History</a
-              >
-            </li>
-            <li>
-              <a
-                href="#portfolio-id"
-                class="nav-link"
-                aria-label="link to Portfolio"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a
-                href="#contacts-id"
-                class="nav-link"
-                aria-label="link to Contacts"
-                >Contacts</a
-              >
-            </li>
-          </ul>
-        </nav>
+        <div class="header__wrapper">
+          <svg class="logo" aria-label="wrapper logo">
+            <use href="assets/sprites.svg#logo-icon"></use>
+          </svg>
+          <nav class="header__nav" aria-label="navigation">
+            <ul class="header__list" aria-label="navigation list">
+              <li class="header__list-item">
+                <a href="#" class="header__link">Why Alivio</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__link">Solutions</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__link">Community</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__actions">
+            <button type="button" class="btn btn__sign-in">Sign in</button>
+            <button type="button" class="btn">Start Trial</button>
+          </div>
+        </div>
       </div>
     </header>
-    <div class="mobile_navigation">
-      <label
-        for="toggler_id"
-        class="burger-menu-icon"
-        aria-label="open-close mobile_navigation menu"
-      >
-        <svg class="social-icon" aria-label="burger icon">
-          <use href="assets/sprites.svg#burger_nav-icon"></use>
-        </svg>
-      </label>
-      <input
-        type="checkbox"
-        id="toggler_id"
-        class="mobile_navigation-toggler"
-      />
-      <nav class="mobile_navigation-nav" aria-label=" header navigation">
-        <ul class="mobile_navigation-list" aria-label="header list item">
-          <li>
-            <a
-              href="#home-id"
-              class="mobile_navigation-link"
-              aria-label="link to home"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="#about-id"
-              class="mobile_navigation-link"
-              aria-label="link to About"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#history-id"
-              class="mobile_navigation-link"
-              aria-label="link to History"
-              >History</a
-            >
-          </li>
-          <li>
-            <a
-              href="#portfolio-id"
-              class="mobile_navigation-link"
-              aria-label="link to Portfolio"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contacts-id"
-              class="mobile_navigation-link"
-              aria-label="link to Contacts"
-              >Contacts</a
-            >
-          </li>
-        </ul>
-        <label
-          class="cross-icon"
-          for="toggler_id"
-          aria-label="open-close mobile_navigation menu"
-        >
-          <img
-            src="assets/Cross.svg"
-            alt="cross icon"
-            aria-label="cross icon"
-          />
-        </label>
-      </nav>
-    </div>
-
-    <main class="main" aria-label="main">
-      <div class="container">
-        <section class="home" aria-label="home" id="home-id">
-          <h1 class="home-title" aria-label="title">
-            Ivan Constantinovich Aivazovski
-          </h1>
-          <p class="home-description" aria-label="description">
-            Russian marine painter of Armenian origin, collector, philanthropist
-          </p>
-          <img
-            src="assets/webp/portrait1.webp"
-            alt="photo of  Aivazovski "
-            class="home-img"
-          />
-        </section>
-      </div>
-      <section class="about" aria-label=" about section" id="about-id">
-        <div class="container">
-          <h2 class="about-title" aria-label="about-title">About</h2>
-          <h3 class="about-subtitle-ru" aria-label="about-subtitle">
-            Ива́н Константи́нович Айвазо́вский – русский живописец-маринист
-            армянского происхождения, коллекционер, меценат.
-          </h3>
-          <p class="about-description-ru" aria-label="about-description-ru">
-            Будучи художником с мировой известностью, Иван Константинович
-            Айвазовский предпочитал жить и работать на своей родине — в Крыму.
-            Айвазовский наиболее известен своими морскими пейзажами, которые
-            составляют больше половины его работ. Художник считается одним из
-            величайших маринистов всех времён.
-          </p>
-          <hr class="about-divider divider" />
-          <h3 class="about-subtitle-en" aria-label="about-subtitle-en">
-            Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian
-            origin, collector, philanthropist.
-          </h3>
-          <p class="about-description-en" aria-label="about-description-en">
-            Being a world famous artist, Ivan Konstantinovich Aivazovsky
-            preferred to live and work in his homeland - in the Crimea.
-            Aivazovsky is best known for his seascapes, which make up more than
-            half of his work. The artist is considered one of the greatest
-            marine painters of all time.
-          </p>
-        </div>
-      </section>
-      <section class="history" aria-label="section-history" id="history-id">
-        <div class="container">
-          <h2 class="history-title" aria-label="history-title">History</h2>
-          <img
-            class="history-img"
-            src="assets/webp/history.webp"
-            alt="history-img"
-          />
-          <p class="history-description" aria-label="history-description">
-            Дом в котором родился Айвазовский | The house where Aivazovsky was
-            born
-          </p>
-        </div>
-      </section>
-      <section class="portfolio" aria-label="portfolio" id="portfolio-id">
-        <div class="container">
-          <h1 class="portfolio-title" aria-label="portfolio-title ">
-            Portfolio
-          </h1>
-          <img
-            class="portfolio-img"
-            src="assets/webp/Portfolio.webp"
-            alt="Winter wagon train on the way"
-          />
-          <p class="description-portfolio" aria-label="description-portfolio">
-            Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
-          </p>
-          <img
-            src="assets/webp/portret-2.webp"
-            class="portfolio-img"
-            alt="Rainbow"
-          />
-          <p
-            class="description-portfolio"
-            aria-label=" portret 2 description-portfolio"
-          >
-            Радуга, 1873 г. | Rainbow, 1873
-          </p>
-          <img
-            src="assets/webp/portret-3.webp"
-            class="portfolio-img"
-            alt=" Gulf of Naples in the morning"
-          />
-          <p
-            class="description-portfolio"
-            aria-label=" portret 3 description-portfolio"
-          >
-            Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning,
-            1893
-          </p>
-        </div>
-      </section>
-    </main>
-    <footer class="contacts" aria-label="contacts section" id="contacts-id">
-      <div class="container">
-        <h2 class="contacts-title" aria-label="contacts-title">Contacts</h2>
-
-        <a
-          href="https://ayvazovskiy.su"
-          class="contacts-button"
-          aria-label="contacts-button"
-          >ayvazovskiy.su</a
-        >
-
-        <address class="socials" aria-label="social icon">
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            aria-label="link to youtube"
-          >
-            <svg class="social-icon" aria-label="youtube icon">
-              <use href="assets/sprites.svg#youtube-icon"></use>
-            </svg>
-          </a>
-          <a
-            href=" https://linkedin.com"
-            target="_blank"
-            aria-label="link to linkedin"
-          >
-            <svg class="social-icon" aria-label="linkedin icon">
-              <use href="assets/sprites.svg#linkedin-icon"></use>
-            </svg>
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            aria-label="link to instagram"
-          >
-            <svg class="social-icon" aria-label="instagram icon">
-              <use href="assets/sprites.svg#instagram-icon"></use>
-            </svg>
-          </a>
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            aria-label="link to facebook"
-          >
-            <svg class="social-icon" aria-label="facebook icon">
-              <use href="assets/sprites.svg#facebook-icon"></use>
-            </svg>
-          </a>
-        </address>
-        <p class="contacts-info" aria-label="just for info">
-          More works you can see in these social networks
-        </p>
-      </div>
-    </footer>
   </body>
 </html>
+
+<!-- width="81" height="24" -->
